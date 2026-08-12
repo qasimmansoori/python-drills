@@ -1,0 +1,14 @@
+[project]
+name = "hello-api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "dnspython>=2.8.0",
+    "fastapi>=0.141.1",
+    "httpx>=0.28.1",
+    "pydantic>=2.13.4",
+    "requests>=2.34.2",
+    "uvicorn>=0.52.1",
+]
