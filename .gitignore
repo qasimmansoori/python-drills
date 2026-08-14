@@ -5,7 +5,9 @@ build/
 dist/
 wheels/
 *.egg-info
-domains.txt
-
+# Private Progress Tracker
+PROGRESS_LOG.md
+One-Year-Master-Plan.docx
 # Virtual environments
 .venv
+
