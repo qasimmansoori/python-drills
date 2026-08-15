@@ -4,7 +4,7 @@ from .models import UserModel
 
 # client = httpx.AsyncClient()
 
-async def fetch_user(client: httpx.AsyncClient, username) -> UserModel:
+async def fetch_user(client: httpx.AsyncClient, username: str) -> UserModel | None:
     try:
         response = await client.get(f"https://api.github.com/users/{username}")
         # response.raise_for_status()
