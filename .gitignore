@@ -7,7 +7,7 @@ wheels/
 *.egg-info
 # Private Progress Tracker
 PROGRESS_LOG.md
-One-Year-Master-Plan.docx
+One-Year-Master-Plan.md
 # Virtual environments
 .venv
 
