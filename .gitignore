@@ -1,15 +1,23 @@
-# Python-generated files
+# Private Progress Tracker & Personal Notes
+PROGRESS_LOG.md
+One-Year-Master-Plan*
+notes.md
+*.pdf
+*Resume*
+*.docx*
+*Zone.Identifier*
+
+# Secrets & Environment
+.env
+.env.*
+*.env
+
+# Virtual environments & Build
+.venv/
 __pycache__/
 *.py[oc]
 build/
 dist/
 wheels/
 *.egg-info
-# Private Progress Tracker
-PROGRESS_LOG.md
-One-Year-Master-Plan.md
-# Virtual environments
-.venv
-notes.md
-One-Year-Master-Plan - Copy.md:Zone.Identifier
-One-Year-Master-Plan - Copy.md
+.mypy_cache/
